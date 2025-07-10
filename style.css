@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #ffc2d1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+    flex-direction: column;
+    
+}
+
+h1{
+    font-family: Tahoma;
+    color: #590d22;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-family: Tahoma;
+    color: #590d22;
+    margin-bottom: 10px;
+}
+
+.container{
+    margin-top: 10px;
+    height: 70vh;
+    width: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border: 4px solid black;
+    flex-direction: column;
+
+}
+.screen{
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: rgb(247, 243, 243);
+    height:20vmin;
+    width: 60vmin;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    margin-top: 10px;
+    gap: 10px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.operation:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.num:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.clear:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+.clear{
+    border-radius: 10px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.numbers{
+    gap: 10px;
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+}
+
+.num{
+    border-radius: 10px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation{
+    border-radius: 10px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ops{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
